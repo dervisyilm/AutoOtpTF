@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94AB91D295C64E900B7DEDC /* AutoOtpTFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB91C295C64E900B7DEDC /* AutoOtpTFApp.swift */; };
+		A94AB91F295C64E900B7DEDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB91E295C64E900B7DEDC /* ContentView.swift */; };
+		A94AB921295C64EA00B7DEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94AB920295C64EA00B7DEDC /* Assets.xcassets */; };
+		A94AB925295C64EA00B7DEDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94AB924295C64EA00B7DEDC /* Preview Assets.xcassets */; };
+		A94AB92F295C64EA00B7DEDC /* AutoOtpTFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB92E295C64EA00B7DEDC /* AutoOtpTFTests.swift */; };
+		A94AB939295C64EA00B7DEDC /* AutoOtpTFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB938295C64EA00B7DEDC /* AutoOtpTFUITests.swift */; };
+		A94AB93B295C64EA00B7DEDC /* AutoOtpTFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB93A295C64EA00B7DEDC /* AutoOtpTFUITestsLaunchTests.swift */; };
+		A94AB949295C655900B7DEDC /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AB948295C655900B7DEDC /* OTPVerificationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94AB92B295C64EA00B7DEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94AB911295C64E800B7DEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94AB918295C64E900B7DEDC;
+			remoteInfo = AutoOtpTF;
+		};
+		A94AB935295C64EA00B7DEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94AB911295C64E800B7DEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94AB918295C64E900B7DEDC;
+			remoteInfo = AutoOtpTF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94AB919295C64E900B7DEDC /* AutoOtpTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoOtpTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94AB91C295C64E900B7DEDC /* AutoOtpTFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOtpTFApp.swift; sourceTree = "<group>"; };
+		A94AB91E295C64E900B7DEDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A94AB920295C64EA00B7DEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94AB922295C64EA00B7DEDC /* AutoOtpTF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoOtpTF.entitlements; sourceTree = "<group>"; };
+		A94AB924295C64EA00B7DEDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A94AB92A295C64EA00B7DEDC /* AutoOtpTFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoOtpTFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94AB92E295C64EA00B7DEDC /* AutoOtpTFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOtpTFTests.swift; sourceTree = "<group>"; };
+		A94AB934295C64EA00B7DEDC /* AutoOtpTFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoOtpTFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94AB938295C64EA00B7DEDC /* AutoOtpTFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOtpTFUITests.swift; sourceTree = "<group>"; };
+		A94AB93A295C64EA00B7DEDC /* AutoOtpTFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOtpTFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A94AB948295C655900B7DEDC /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94AB916295C64E900B7DEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB927295C64EA00B7DEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB931295C64EA00B7DEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94AB910295C64E800B7DEDC = {
+			isa = PBXGroup;
+			children = (
+				A94AB91B295C64E900B7DEDC /* AutoOtpTF */,
+				A94AB92D295C64EA00B7DEDC /* AutoOtpTFTests */,
+				A94AB937295C64EA00B7DEDC /* AutoOtpTFUITests */,
+				A94AB91A295C64E900B7DEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94AB91A295C64E900B7DEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB919295C64E900B7DEDC /* AutoOtpTF.app */,
+				A94AB92A295C64EA00B7DEDC /* AutoOtpTFTests.xctest */,
+				A94AB934295C64EA00B7DEDC /* AutoOtpTFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94AB91B295C64E900B7DEDC /* AutoOtpTF */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB947295C653600B7DEDC /* View */,
+				A94AB91C295C64E900B7DEDC /* AutoOtpTFApp.swift */,
+				A94AB91E295C64E900B7DEDC /* ContentView.swift */,
+				A94AB920295C64EA00B7DEDC /* Assets.xcassets */,
+				A94AB922295C64EA00B7DEDC /* AutoOtpTF.entitlements */,
+				A94AB923295C64EA00B7DEDC /* Preview Content */,
+			);
+			path = AutoOtpTF;
+			sourceTree = "<group>";
+		};
+		A94AB923295C64EA00B7DEDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB924295C64EA00B7DEDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A94AB92D295C64EA00B7DEDC /* AutoOtpTFTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB92E295C64EA00B7DEDC /* AutoOtpTFTests.swift */,
+			);
+			path = AutoOtpTFTests;
+			sourceTree = "<group>";
+		};
+		A94AB937295C64EA00B7DEDC /* AutoOtpTFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB938295C64EA00B7DEDC /* AutoOtpTFUITests.swift */,
+				A94AB93A295C64EA00B7DEDC /* AutoOtpTFUITestsLaunchTests.swift */,
+			);
+			path = AutoOtpTFUITests;
+			sourceTree = "<group>";
+		};
+		A94AB947295C653600B7DEDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A94AB948295C655900B7DEDC /* OTPVerificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94AB918295C64E900B7DEDC /* AutoOtpTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94AB93E295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTF" */;
+			buildPhases = (
+				A94AB915295C64E900B7DEDC /* Sources */,
+				A94AB916295C64E900B7DEDC /* Frameworks */,
+				A94AB917295C64E900B7DEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoOtpTF;
+			productName = AutoOtpTF;
+			productReference = A94AB919295C64E900B7DEDC /* AutoOtpTF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94AB929295C64EA00B7DEDC /* AutoOtpTFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94AB941295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTFTests" */;
+			buildPhases = (
+				A94AB926295C64EA00B7DEDC /* Sources */,
+				A94AB927295C64EA00B7DEDC /* Frameworks */,
+				A94AB928295C64EA00B7DEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94AB92C295C64EA00B7DEDC /* PBXTargetDependency */,
+			);
+			name = AutoOtpTFTests;
+			productName = AutoOtpTFTests;
+			productReference = A94AB92A295C64EA00B7DEDC /* AutoOtpTFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94AB933295C64EA00B7DEDC /* AutoOtpTFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94AB944295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTFUITests" */;
+			buildPhases = (
+				A94AB930295C64EA00B7DEDC /* Sources */,
+				A94AB931295C64EA00B7DEDC /* Frameworks */,
+				A94AB932295C64EA00B7DEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94AB936295C64EA00B7DEDC /* PBXTargetDependency */,
+			);
+			name = AutoOtpTFUITests;
+			productName = AutoOtpTFUITests;
+			productReference = A94AB934295C64EA00B7DEDC /* AutoOtpTFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94AB911295C64E800B7DEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A94AB918295C64E900B7DEDC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A94AB929295C64EA00B7DEDC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A94AB918295C64E900B7DEDC;
+					};
+					A94AB933295C64EA00B7DEDC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A94AB918295C64E900B7DEDC;
+					};
+				};
+			};
+			buildConfigurationList = A94AB914295C64E800B7DEDC /* Build configuration list for PBXProject "AutoOtpTF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94AB910295C64E800B7DEDC;
+			productRefGroup = A94AB91A295C64E900B7DEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94AB918295C64E900B7DEDC /* AutoOtpTF */,
+				A94AB929295C64EA00B7DEDC /* AutoOtpTFTests */,
+				A94AB933295C64EA00B7DEDC /* AutoOtpTFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94AB917295C64E900B7DEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AB925295C64EA00B7DEDC /* Preview Assets.xcassets in Resources */,
+				A94AB921295C64EA00B7DEDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB928295C64EA00B7DEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB932295C64EA00B7DEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94AB915295C64E900B7DEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AB949295C655900B7DEDC /* OTPVerificationView.swift in Sources */,
+				A94AB91F295C64E900B7DEDC /* ContentView.swift in Sources */,
+				A94AB91D295C64E900B7DEDC /* AutoOtpTFApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB926295C64EA00B7DEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AB92F295C64EA00B7DEDC /* AutoOtpTFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94AB930295C64EA00B7DEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AB939295C64EA00B7DEDC /* AutoOtpTFUITests.swift in Sources */,
+				A94AB93B295C64EA00B7DEDC /* AutoOtpTFUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94AB92C295C64EA00B7DEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94AB918295C64E900B7DEDC /* AutoOtpTF */;
+			targetProxy = A94AB92B295C64EA00B7DEDC /* PBXContainerItemProxy */;
+		};
+		A94AB936295C64EA00B7DEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94AB918295C64E900B7DEDC /* AutoOtpTF */;
+			targetProxy = A94AB935295C64EA00B7DEDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A94AB93C295C64EA00B7DEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94AB93D295C64EA00B7DEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A94AB93F295C64EA00B7DEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoOtpTF/AutoOtpTF.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoOtpTF/Preview Content\"";
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A94AB940295C64EA00B7DEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoOtpTF/AutoOtpTF.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoOtpTF/Preview Content\"";
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A94AB942295C64EA00B7DEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoOtpTF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutoOtpTF";
+			};
+			name = Debug;
+		};
+		A94AB943295C64EA00B7DEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoOtpTF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutoOtpTF";
+			};
+			name = Release;
+		};
+		A94AB945295C64EA00B7DEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoOtpTF;
+			};
+			name = Debug;
+		};
+		A94AB946295C64EA00B7DEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89HP2ZVQ9U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dervis.autoOtpTF.AutoOtpTFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoOtpTF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94AB914295C64E800B7DEDC /* Build configuration list for PBXProject "AutoOtpTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AB93C295C64EA00B7DEDC /* Debug */,
+				A94AB93D295C64EA00B7DEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94AB93E295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AB93F295C64EA00B7DEDC /* Debug */,
+				A94AB940295C64EA00B7DEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94AB941295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AB942295C64EA00B7DEDC /* Debug */,
+				A94AB943295C64EA00B7DEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94AB944295C64EA00B7DEDC /* Build configuration list for PBXNativeTarget "AutoOtpTFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94AB945295C64EA00B7DEDC /* Debug */,
+				A94AB946295C64EA00B7DEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94AB911295C64E800B7DEDC /* Project object */;
+}
